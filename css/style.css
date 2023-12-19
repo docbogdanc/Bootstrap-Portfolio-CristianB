@@ -32,6 +32,8 @@
 /* positioning of the photo away from left margin */
 #subheader img {
     margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 3%
 }
 
 /*  positioning of the "quote" box */
