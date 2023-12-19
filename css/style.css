@@ -74,3 +74,21 @@
 .accordion-body img {
     padding-top: 10px;
 }
+
+/* .cards5 {
+    justify-content: space-between;
+} */
+
+.cardLowerTexts {
+    padding-top: 5px;
+    margin-bottom: -10px;
+}
+
+.card-text {
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-text h6 {
+    font-size: xx-large;
+}
