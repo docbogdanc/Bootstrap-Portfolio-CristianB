@@ -37,7 +37,7 @@
 }
 
 /*  positioning of the "quote" box */
-.card-body {
+main .card-body {
     display: flex;
     justify-content: flex-end;
     margin-top: 190px;
@@ -72,7 +72,7 @@
 }
 
 /* styling for the card text */
-.card-text {
+main .card-text {
     text-align: center;
     font-weight: 700;
 }
@@ -87,4 +87,8 @@ span {
 a {
     text-decoration: none;
     color: black;
+}
+
+footer {
+    height: 50px;
 }
