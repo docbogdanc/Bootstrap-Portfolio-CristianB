@@ -37,7 +37,7 @@
 }
 
 /*  positioning of the "quote" box */
-main .card-body {
+.card-body {
     display: flex;
     justify-content: flex-end;
     margin-top: 190px;
@@ -77,6 +77,13 @@ main .card-text {
     font-weight: 700;
 }
 
+
+.acordion card :hoover {
+    background-color: red ;
+    opacity: 0.5 ;
+
+}
+
 /* all titles and important text are now black */
 span {
     color: black;
@@ -89,6 +96,3 @@ a {
     color: black;
 }
 
-footer {
-    height: 50px;
-}
