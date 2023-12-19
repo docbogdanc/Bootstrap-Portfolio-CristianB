@@ -1,0 +1,76 @@
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color:rgb(170, 185, 185);
+    
+    border: 2px solid black;
+}
+
+.navbar {
+    
+    /* border: 2px solid black; */
+}
+
+#name {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-weight: 900 ;
+    margin-bottom: 10px;
+} 
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.nav-item{
+    padding: 0 50px 0 50px;}
+
+#subheader {
+    background-image: url(../images/02-hero-bg.jpg);
+    background-position: center;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+#subheader img {
+    margin-left: 20px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 190px;
+}
+
+.card-title {
+    display: flex;
+    background-color: rgb(170, 185, 185);
+    opacity: 0.7;
+    text-align: center;
+    line-height: 75%;
+    align-self: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5%;
+    /* flex-shrink: 1; */
+}
+
+.acordion {
+    padding-top: 0;
+}
+
+.accordion-body img {
+    padding-top: 10px;
+}
