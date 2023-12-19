@@ -1,38 +1,25 @@
 
-#header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    z-index: 3;
-}
-
-.navbar {
-    
-    /* border: 2px solid black; */
-}
-
+/* font style for name */
 #name {
     font-size: xx-large;
     font-weight: 700;
 }
 
+/* font style for links */
 #navbarNav {
-    display: flex;
+    /* display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: center; */
     font-weight: 900 ;
     margin-bottom: 10px;
 } 
 
-.navbar-nav {
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-}
+
+/* margin between links */
 .nav-item{
     padding: 0 50px 0 50px;}
 
+/* background for section with photo and quote */
 #subheader {
     background-image: url(../images/02-hero-bg.jpg);
     background-position: center;
@@ -42,16 +29,19 @@
     margin-bottom: -20px;
 }
 
+/* positioning of the photo away from left margin */
 #subheader img {
     margin-left: 20px;
 }
 
+/*  positioning of the "quote" box */
 .card-body {
     display: flex;
     justify-content: flex-end;
     margin-top: 190px;
 }
 
+/* style for the "quote" box */
 .card-title {
     display: flex;
     background-color: rgb(170, 185, 185);
@@ -65,38 +55,33 @@
     /* flex-shrink: 1; */
 }
 
-.acordion {
-    padding-top: 0;
 
-}
-
+/* image lowered to be better centered */
 .accordion-body img {
     padding-top: 10px;
     
 }
 
-.accordion button {
-    color: black;
-} 
-/* .cards5 {
-    justify-content: space-between;
-} */
 
+/* positioning of the card text  */
 .cardLowerTexts {
     padding-top: 5px;
     margin-bottom: -10px;
 }
 
+/* styling for the card text */
 .card-text {
     text-align: center;
     font-weight: 700;
 }
 
+/* all titles and important text are now black */
 span {
     color: black;
     font-weight: bolder;
 }
 
+/* links are black and without underline */
 a {
     text-decoration: none;
     color: black;
