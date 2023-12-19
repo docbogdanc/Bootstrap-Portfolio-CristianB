@@ -15,7 +15,7 @@ It tests the knowledge gained in the last three weeks, especially the implementa
 
 ## Installation
 
-The repository is on public domain and the deployed webpage can be access online at ..... where it was deployed using GitHub 
+The repository is on public domain and the deployed webpage can be access online at https://docbogdanc.github.io/Bootstrap-Portfolio-CristianB/ where it was deployed using GitHub 
 
 
 ## Usage
